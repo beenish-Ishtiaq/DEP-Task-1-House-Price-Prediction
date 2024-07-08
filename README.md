@@ -6,24 +6,24 @@ This project aims to predict house prices based on various features, using machi
 ## Dataset
 The dataset used is the California Housing Prices dataset from Kaggle. It contains information about various houses in California, including features like:
 
-longitude
-latitude
-housing_median_age
-total_rooms
-total_bedrooms
-population
-households
-median_income
-median_house_value
-ocean_proximity
+longitude  
+latitude  
+housing_median_age  
+total_rooms  
+total_bedrooms  
+population  
+households  
+median_income  
+median_house_value  
+ocean_proximity  
 
 ## Steps Involved
 
 ### 1. Data Preprocessing
-Handling Missing Values: Removed rows with missing values to ensure data integrity.
-Encoding Categorical Variables: Used one-hot encoding for the ocean_proximity feature.
-Feature Engineering: Created new features eg bedroom_ratio and household_room.
-Data Scaling: Scaled the features for better model performance.
+Handling Missing Values: Removed rows with missing values to ensure data integrity.  
+Encoding Categorical Variables: Used one-hot encoding for the ocean_proximity feature.  
+Feature Engineering: Created new features eg bedroom_ratio and household_room.  
+Data Scaling: Scaled the features for better model performance.  
 
 ### 2. Model Training
 Linear Regression: Trained a simple Linear Regression model, achieving a score of 0.66.
